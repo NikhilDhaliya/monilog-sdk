@@ -70,6 +70,10 @@ export function monitor(options: MonitorOptions = {}) {
 
             //  Check for rotation and then Append to logs file
             try {
+                const logDir = path.dirname(logFilePath);
+                if (!fs.existsSync(logDir)) {
+                    fs.mkdirSync(logDir, { recursive: true });
+                }
                 rotateLogs(logFilePath);
                 fs.appendFileSync(logFilePath, logString);
             } catch (err: any) {
