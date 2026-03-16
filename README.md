@@ -1,7 +1,7 @@
 # Monilog SDK
 
 [![npm version](https://img.shields.io/npm/v/monilog-sdk.svg)](https://www.npmjs.com/package/monilog-sdk)
-[![license](https://img.shields.io/npm/l/monilog-sdk.svg)](https://github.com/NikhilDhaliya/logger-sdk/blob/main/LICENSE)
+[![license](https://img.shields.io/npm/l/monilog-sdk.svg)](https://github.com/NikhilDhaliya/monilog-sdk/blob/main/LICENSE)
 
 A high-performance, middleware-based logger SDK for Node.js applications. **Monilog** automatically monitors your backend logs, handles log rotation, and provides real-time Slack alerting for critical errors.
 
@@ -57,7 +57,7 @@ app.listen(3000, () => console.log('Server running on port 3000'));
 
 ## Development
 
-1. **Clone the repo**: `git clone https://github.com/NikhilDhaliya/logger-sdk.git`
+1. **Clone the repo**: `git clone https://github.com/NikhilDhaliya/monilog-sdk.git`
 2. **Install deps**: `npm install`
 3. **Build**: `npm run build`
 4. **Test**: `cd test-app && node app.js`

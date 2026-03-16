@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NikhilDhaliya/logger-sdk.git"
+    "url": "git+https://github.com/NikhilDhaliya/monilog-sdk.git"
   },
   "files": [
     "dist",
